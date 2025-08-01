@@ -9,7 +9,7 @@ const getContacts = asyncHandler(async (req, res) => {
   res.status(200).json(contacts);
 });
 
-//desc Get new contacts
+//desc create new contacts
 //route post /api/contacts
 //access private
 const createContact = asyncHandler(async (req, res) => {
